@@ -1,0 +1,28 @@
+.about {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.about h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: -webkit-center;
+}
+
+.about p {
+  font-size: 16px;
+  color: #666;
+}
+
+.about .skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.about .skills-list li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
+  color: #888;
+}

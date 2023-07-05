@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+/* ...existing styles... */
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.page-transition {
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(0);
+}
+
+.page-enter {
+  transform: translateX(-100%);
+}
+
+.page-exit {
+  transform: translateX(100%);
+}
+
+h2 {
+  text-align: -webkit-center;
+}
+

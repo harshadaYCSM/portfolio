@@ -1,39 +1,29 @@
-import React, { useState } from 'react';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import Navbar from './components/NavBar';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import { AnimatePresence } from 'framer-motion';
 
 const App = () => {
-  const [activeComponent, setActiveComponent] = useState('about');
-
-  const handleNavClick = (component) => {
-    setActiveComponent(component);
-  };
-
-  const renderActiveComponent = () => {
-    switch (activeComponent) {
-      case 'about':
-        return <About />;
-      case 'skills':
-        return <Skills />;
-      case 'projects':
-        return <Projects />;
-      case 'contact':
-        return <Contact />;
-      default:
-        return null;
-    }
-  };
-
   return (
-    <div className="App">
-      <Navbar handleNavClick={handleNavClick} activeComponent={activeComponent} />
-      {renderActiveComponent()}
+    <Router>
+      <Navbar />
+      <div className="container">
+        <AnimatePresence mode='wait'>
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      </AnimatePresence>
     </div>
+    </Router>
   );
-}
+};
 
 export default App;
