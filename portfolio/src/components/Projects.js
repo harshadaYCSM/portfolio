@@ -4,7 +4,7 @@ import '../styles/Projects.css';
 const Projects = () => {
   return (
     <div className="projects">
-      <h2>Projects</h2>
+      <h2>PROJECTS</h2>
       <ul className="project-list">
         <li className="project">
           <h3 className="project-title">Infinite SmartTV Project, Synamedia (07/2022 - 03/2023)</h3>

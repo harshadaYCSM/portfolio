@@ -26,7 +26,7 @@ const Skills = () => {
 
   return (
     <div className="skills">
-      <h2>Skills</h2>
+      <h2>SKILLS</h2>
       <div className='skills-container'>
         {
           skillTypes && skillTypes.map((skillType, index) => {

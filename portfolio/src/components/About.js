@@ -13,16 +13,27 @@ const About = () => {
       <div className="profile-image">
         {/* <img src={profileImage} alt="Profile" /> */}
       </div>
-      <h2>About</h2>
-      <h4>SUMMARY</h4>
-      <p>I am a Frontend Developer with more than 5 years of experience, expertise in JavaScript, ReactJS, HTML5, CSS,
-        SASS & UI/UX design. Proficient in RESTful APIs, media player libraries, & cross-platform compatibility.</p>
-      <h4 className='work-experience'>WORK EXPERIENCE</h4>
-      <p className='date'>01/2018 – 03/2023</p>
-      <p className='company'>L&T Technology Services, Bangalore</p>
-      <p className='post'>Senior Engineer</p>
-      <p>Worked on multiple projects, ensuring exceptional user experience & optimized performance. Contributed to feature additions, UI enhancements, & bug fixing to meet
-        customer demands while following the CI/CD approach. Utilized Agile software development (Scrum) methodologies for all projects.</p>
+      {/* <h2>About</h2> */}
+      {/* <h4>SUMMARY</h4> */}
+      <p>Hi there, I am Harshada Chaudhari 
+      <span className="wave" role="img" aria-labelledby="wave">
+                  👋🏻
+                </span>
+      </p>
+      <p>💻 I am a Frontend Developer</p>
+      <p>🙋🏻‍♀️ Looking for new opportunities in 📍Munich, Germany due to relocation</p>
+      <p>💼 Worked in L&T Technology Services for 5+ years</p>
+      <p>👩🏻‍💻 Skilled in JavaScript, HTML5, CSS3, ReactJS</p>
+      <p>📺 Experience in developing OTT-Media apps</p>
+      <p>⏯️ Worked with Shaka, HLS media playerlibraries</p>
+      <p>🌱 I’m currently learning NodeJS & TypeScript</p>
+      <p>⚡ Fun fact:I also love Playing Guitar,Crafting & Painting.😄 Do checkout my <a href='https://colorfulartspace.wordpress.com'>blog</a>.</p>
+      
+
+
+      {/* <p>I am a Frontend Developer with more than 5 years of experience, expertise in JavaScript, ReactJS, HTML5, CSS,
+        SASS & UI/UX design. Proficient in RESTful APIs, media player libraries, & cross-platform compatibility.</p> */}
+      
       <div className="social-links">
         <a href={githubUrl} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} />

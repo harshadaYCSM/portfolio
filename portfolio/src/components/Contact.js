@@ -33,7 +33,7 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <h2>Contact</h2>
+      <h2>CONTACT</h2>
       <form>
         <input type="text" placeholder="Name" value={name} onChange={handleNameChange} required />
         <input type="email" placeholder="Email" value={email} onChange={handleEmailChange} required />
