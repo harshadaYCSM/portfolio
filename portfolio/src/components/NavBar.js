@@ -8,14 +8,14 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-brand">Portfolio</div>
 
-        <ul>
+        <ul className='navbar-list'>
           <li>
             {/* <NavLink exact to="/" activeClassName="active">About</NavLink> */}
             <a href="#about">About</a>
           </li>
           <li>
             {/* <NavLink to="/skills" activeClassName="active">Skills</NavLink> */}
-            <a href="#skills">Projects</a>
+            <a href="#skills">Skills</a>
           </li>
           <li>
             {/* <NavLink to="/projects" activeClassName="active">Projects</NavLink> */}

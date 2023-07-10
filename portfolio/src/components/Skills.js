@@ -28,7 +28,6 @@ const Skills = () => {
     <div className="skills">
       <h2>Skills</h2>
       <div className='skills-container'>
-
         {
           skillTypes && skillTypes.map((skillType, index) => {
             return (<div className='skill-section'> <p className='skill-title'>{skillType}</p> <div id={index}></div><div className='skill-list'>

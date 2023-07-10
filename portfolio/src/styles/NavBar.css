@@ -10,13 +10,15 @@
 .navbar-brand {
   font-size: 24px;
   font-weight: bold;
+  padding-left: 26px;
 }
 
 .navbar ul {
   list-style-type: none;
   display: flex;
-  margin: 0;
+  margin: 5px;
   padding: 0;
+  padding-right: 26px;
 }
 
 .navbar ul li {
