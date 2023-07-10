@@ -1,17 +1,17 @@
 .projects {
-  padding: 20px;
+  padding: 40px;
   background-color: #f9f9f9;
 }
 
 .projects h2 {
   font-size: 24px;
   color: #333;
-  text-align: -webkit-center;
-
+  text-align: center;
 }
 
 .projects .project {
   margin-bottom: 20px;
+  animation: fadeInScale 1s ease-in-out;
 }
 
 .projects .project-title {
@@ -23,4 +23,37 @@
 .projects .project-description {
   font-size: 16px;
   color: #666;
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 10px;
+  }
+
+  .projects h2 {
+    font-size: 20px;
+  }
+
+  .projects .project {
+    margin-bottom: 10px;
+  }
+
+  .projects .project-title {
+    font-size: 16px;
+  }
+
+  .projects .project-description {
+    font-size: 14px;
+  }
 }

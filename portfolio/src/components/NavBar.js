@@ -10,16 +10,20 @@ const Navbar = () => {
 
         <ul>
           <li>
-            <NavLink exact to="/" activeClassName="active">About</NavLink>
+            {/* <NavLink exact to="/" activeClassName="active">About</NavLink> */}
+            <a href="#about">About</a>
           </li>
           <li>
-            <NavLink to="/skills" activeClassName="active">Skills</NavLink>
+            {/* <NavLink to="/skills" activeClassName="active">Skills</NavLink> */}
+            <a href="#skills">Projects</a>
           </li>
           <li>
-            <NavLink to="/projects" activeClassName="active">Projects</NavLink>
+            {/* <NavLink to="/projects" activeClassName="active">Projects</NavLink> */}
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <NavLink to="/contact" activeClassName="active">Contact</NavLink>
+            {/* <NavLink to="/contact" activeClassName="active">Contact</NavLink> */}
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>

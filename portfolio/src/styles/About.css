@@ -1,28 +1,104 @@
 .about {
-  padding: 20px;
+  padding: 40px;
   background-color: #f9f9f9;
+  text-align: center;
 }
 
 .about h2 {
-  font-size: 24px;
+  font-size: 28px;
   color: #333;
-  text-align: -webkit-center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .about p {
-  font-size: 16px;
+  font-size: 18px;
   color: #666;
+  line-height: 1.5;
+}
+
+.about .work-experience {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.about .work-experience h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.company {
+  margin-bottom: 15px;
+  color: rgb(46, 46, 228) !important;
+  font-weight: bolder;
+}
+
+.about .work-experience .date {
+  font-style: italic;
+  font-size: 14px;
+  color: #888;
 }
 
 .about .skills-list {
   list-style: none;
   padding: 0;
   margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about .skills-list li {
-  display: inline-block;
-  margin-right: 10px;
+  margin: 5px;
+  padding: 8px 15px;
   font-size: 14px;
-  color: #888;
+  color: #fff;
+  background-color: #333;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
 }
+
+.about .skills-list li:hover {
+  background-color: #555;
+}
+
+/* Profile Image */
+.profile-image {
+  margin-bottom: 30px;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Social Links */
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  background-color: #333;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #555;
+}
+

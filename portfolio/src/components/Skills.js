@@ -1,12 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faJs, faReact, faRedux } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faJs, faReact, faRedux, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import {
   faCode, faLaptopCode, faTerminal, faPalette, faCogs, faPaintBrush, faFileCode, faAd,
   faBug, faCodeBranch, faFileAlt, faUserFriends, faPencilAlt, faComments, faRectangleCode, faToolbox, faTvAlt, faStore, faB, faDashboard
-} from '@fortawesome/free-solid-svg-icons'; 
+} from '@fortawesome/free-solid-svg-icons';
 import '../styles/Skills.css'
-import { faConfluence, faGit, faFigma, faNpm, faChrome,faJira,faSass,faJsSquare} from '@fortawesome/free-brands-svg-icons';
+import { faConfluence, faGit, faFigma, faNpm, faChrome, faJira, faSass, faJsSquare } from '@fortawesome/free-brands-svg-icons';
 
 const Skills = () => {
   const skillTypes = ['Programming', 'Tools', 'Platforms', 'Miscellaneous']
@@ -18,10 +18,10 @@ const Skills = () => {
   }
   const skillIconsList = {
     'HTML': faHtml5, 'CSS': faCss3Alt, 'Javascript': faJs, 'ES6': faJsSquare, 'ReactJS': faReact, 'Redux': faStore, 'REST APIs': faTerminal, 'SASS': faSass,
-    'Visual Studio Code': faCode, 'Chrome Debugger': faToolbox, 'Jira': faJira, 'Git':faGit, 'Confluence':faConfluence, 'Zeplin': faPalette, 'Figma':faFigma,
+    'Visual Studio Code': faCode, 'Chrome Debugger': faToolbox, 'Jira': faJira, 'Git': faGit, 'Confluence': faConfluence, 'Zeplin': faPalette, 'Figma': faFigma,
     'Chrome': faChrome, 'LG WebOS': faTvAlt, 'Samsung TizenOS': faTvAlt, 'Sony Smart TV': faTvAlt, 'Vidaa': faTvAlt,
-    'NPM':faNpm, 'Babel': faB, 'Webpack': faLaptopCode, 'Mixpanel': faDashboard, 'IMA' : faAd, 'SSAI': faAd, 'DRM': faFileCode, 'Deep Linking': faCogs,
-    'default' : faJs
+    'NPM': faNpm, 'Babel': faB, 'Webpack': faLaptopCode, 'Mixpanel': faDashboard, 'IMA': faAd, 'SSAI': faAd, 'DRM': faFileCode, 'Deep Linking': faCogs,
+    'default': faJs
   }
 
   return (
@@ -31,7 +31,7 @@ const Skills = () => {
 
         {
           skillTypes && skillTypes.map((skillType, index) => {
-            return (<div className='skill-section'> <p className='skill-title'>{skillType}</p> <div id={index}></div>
+            return (<div className='skill-section'> <p className='skill-title'>{skillType}</p> <div id={index}></div><div className='skill-list'>
 
               {
                 skillsList && skillsList[skillType]?.map((skill) => {
@@ -43,6 +43,7 @@ const Skills = () => {
                   )
                 })
               }
+            </div>
             </div>)
           })
         }
