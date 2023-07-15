@@ -1,7 +1,7 @@
 .contact {
   margin-top: 80px;
   padding: 50px;
-  background-color: #f5f5f5;
+  background-color: #20103b;
   text-align: center;
   transition: background-color 0.3s ease;
 }
@@ -38,7 +38,7 @@
 .contact button {
   padding: 10px 20px;
   background-color: #333;
-  color: #fff;
+  /* color: #fff; */
   border: none;
   border-radius: 5px;
   cursor: pointer;

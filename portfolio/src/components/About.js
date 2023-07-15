@@ -3,6 +3,7 @@ import '../styles/About.css';
 // import profileImage from '../images/profile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Type from './Type';
 
 const About = () => {
   const githubUrl = 'https://github.com/your-github-profile'; // Replace with your GitHub profile URL
@@ -20,14 +21,17 @@ const About = () => {
                   👋🏻
                 </span>
       </p>
-      <p>💻 I am a Frontend Developer</p>
-      <p>🙋🏻‍♀️ Looking for new opportunities in 📍Munich, Germany due to relocation</p>
+      <Type />
+
+      {/* <p>💻 I am a Frontend Developer</p> */}
+      <p>Let me introduce myself.</p>
       <p>💼 Worked in L&T Technology Services for 5+ years</p>
       <p>👩🏻‍💻 Skilled in JavaScript, HTML5, CSS3, ReactJS</p>
       <p>📺 Experience in developing OTT-Media apps</p>
       <p>⏯️ Worked with Shaka, HLS media playerlibraries</p>
       <p>🌱 I’m currently learning NodeJS & TypeScript</p>
       <p>⚡ Fun fact:I also love Playing Guitar,Crafting & Painting.😄 Do checkout my <a href='https://colorfulartspace.wordpress.com'>blog</a>.</p>
+      <p>🙋🏻‍♀️ Looking for new opportunities in 📍Munich, Germany due to relocation</p>
       
 
 

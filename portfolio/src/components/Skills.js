@@ -7,25 +7,30 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Skills.css'
 import { faConfluence, faGit, faFigma, faNpm, faChrome, faJira, faSass, faJsSquare } from '@fortawesome/free-brands-svg-icons';
+import Particle from "./Particle";
 
 const Skills = () => {
-  const skillTypes = ['Programming', 'Tools', 'Platforms', 'Miscellaneous']
+  const skillTypes = ['Front-end Development', 'Development Tools & Environment', 'Collaboration & Project Management', 'Smart TV Development', 'Web Analytics & Others']
   const skillsList = {
-    Programming: ['HTML', 'CSS', 'Javascript', 'ES6', 'ReactJS', 'Redux', 'REST APIs', 'SASS'],
-    Tools: ['Visual Studio Code', 'Chrome Debugger', 'Jira', 'Git', 'Confluence', 'Zeplin', 'Figma'],
-    Platforms: ['Chrome', 'LG WebOS', 'Samsung TizenOS', 'Sony Smart TV', 'Vidaa'],
-    Miscellaneous: ['NPM', 'Babel', 'Webpack', 'Mixpanel', 'IMA', 'SSAI', 'DRM', 'Deep Linking']
+    'Front-end Development': ['HTML', 'CSS', 'Javascript', 'ES6', 'ReactJS', 'Redux', 'SASS'],
+    'Development Tools & Environment': ['VS Code','REST APIs', 'NPM', 'Babel', 'Webpack','Git','Chrome'],
+    // 'Web Development Tools': [],
+    'Collaboration & Project Management': ['Jira',  'Confluence', 'Zeplin', 'Figma'],
+    'Smart TV Development': ['LG WebOS', 'TizenOS', 'Sony SmartTV', 'Vidaa'],
+    'Web Analytics & Others': ['Mixpanel', 'IMA', 'SSAI', 'DRM']
   }
   const skillIconsList = {
     'HTML': faHtml5, 'CSS': faCss3Alt, 'Javascript': faJs, 'ES6': faJsSquare, 'ReactJS': faReact, 'Redux': faStore, 'REST APIs': faTerminal, 'SASS': faSass,
-    'Visual Studio Code': faCode, 'Chrome Debugger': faToolbox, 'Jira': faJira, 'Git': faGit, 'Confluence': faConfluence, 'Zeplin': faPalette, 'Figma': faFigma,
-    'Chrome': faChrome, 'LG WebOS': faTvAlt, 'Samsung TizenOS': faTvAlt, 'Sony Smart TV': faTvAlt, 'Vidaa': faTvAlt,
+    'VS Code': faCode, 'Chrome Debugger': faToolbox, 'Jira': faJira, 'Git': faGit, 'Confluence': faConfluence, 'Zeplin': faPalette, 'Figma': faFigma,
+    'Chrome': faChrome, 'LG WebOS': faTvAlt, 'TizenOS': faTvAlt, 'Sony SmartTV': faTvAlt, 'Vidaa': faTvAlt,
     'NPM': faNpm, 'Babel': faB, 'Webpack': faLaptopCode, 'Mixpanel': faDashboard, 'IMA': faAd, 'SSAI': faAd, 'DRM': faFileCode, 'Deep Linking': faCogs,
     'default': faJs
   }
 
   return (
     <div className="skills">
+          <Particle />
+
       <h2>SKILLS</h2>
       <div className='skills-container'>
         {

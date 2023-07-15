@@ -3,7 +3,6 @@ import React from "react";
 import About from "./About";
 import Projects from "./Projects";
 import Skills from "./Skills";
-// import Work from "./work/";
 import Contact from "./Contact";
 import Work from "./Work";
 
@@ -19,9 +18,9 @@ function Body() {
     <section id="work">
       <Work />
     </section>
-    <section id="projects">
+    {/* <section id="projects">
       <Projects />
-    </section>
+    </section> */}
     <section id="contact">
       <Contact />
     </section>
