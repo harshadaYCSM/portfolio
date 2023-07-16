@@ -8,7 +8,7 @@ import Particle from "./Particle";
 
 function Home() {
   return ( <div className="home">
-    <Particle />
+    {/* <Particle /> */}
     <div>
         <Header />
     </div>

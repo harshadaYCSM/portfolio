@@ -32,10 +32,10 @@
   width: 100px;
   height: 100px;
   padding: 2px;
-  /* background-color: #120425; */
+  background-color: #3d2163;
   border-radius: 10px;
   border-color: azure;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   display: flex;
   flex-direction: column;
@@ -47,8 +47,9 @@
 }
 
 .skill-set:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transform: translate(-20px);
+  box-shadow: 0px 20px 30px rgba(168, 164, 164, 0.2);
+  background-color: #7c4bc0;
 }
 
 .skill-section {

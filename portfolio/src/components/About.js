@@ -6,8 +6,8 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Type from './Type';
 
 const About = () => {
-  const githubUrl = 'https://github.com/your-github-profile'; // Replace with your GitHub profile URL
-  const linkedinUrl = 'https://linkedin.com/in/your-linkedin-profile'; // Replace with your LinkedIn profile URL
+  const githubUrl = 'https://github.com/harshadaYCSM'; // Replace with your GitHub profile URL
+  const linkedinUrl = 'https://www.linkedin.com/in/harshada-chaudhari-3a8220b1/'; // Replace with your LinkedIn profile URL
 
   return (
     <div className="about">

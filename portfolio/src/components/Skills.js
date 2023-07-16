@@ -29,7 +29,7 @@ const Skills = () => {
 
   return (
     <div className="skills">
-          <Particle />
+          {/* <Particle /> */}
 
       <h2>SKILLS</h2>
       <div className='skills-container'>

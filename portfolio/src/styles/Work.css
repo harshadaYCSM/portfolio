@@ -8,3 +8,17 @@
     /* color: #333; */
     text-align: center;
   }
+
+  .project-tags{
+    display: flex;
+    max-width: 60%;
+    flex-wrap: wrap;
+}
+
+.tag {
+  padding:  4px 8px;
+  background-color: rgb(110, 110, 212);
+  border-radius: 4px;
+  margin-right: 6px;
+  margin-bottom: 4px;
+}
