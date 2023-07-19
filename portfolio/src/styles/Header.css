@@ -1,8 +1,25 @@
 .header {
-    display: flex;
     justify-content: space-between;
     flex: 1 1;
     padding: 12px;
-    position: relative;
     align-items: center;
+    margin-top: 9vh;
+}
+
+.banner-image {
+    position: absolute;
+    left: 55vw;
+    top: 13vh;
+
+   
+    
+}
+
+img {
+    height: 40vh;
+}
+
+.introduction {
+    font-size: xx-large;
+    margin: 0;
 }

@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-// import "./header.css";
+import "../styles/Header.css";
 // import Mobile from "./mobile";
 // import Web from "./web/index";
 import NavBar from "./NavBar"
 
-
-function Header() {
+const Header = () => {
   const [isOpen, setIsOpen]=useState(false);
   return (
     <div className="header">

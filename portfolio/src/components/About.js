@@ -3,7 +3,6 @@ import '../styles/About.css';
 // import profileImage from '../images/profile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import Type from './Type';
 
 const About = () => {
   const githubUrl = 'https://github.com/harshadaYCSM'; // Replace with your GitHub profile URL
@@ -16,12 +15,7 @@ const About = () => {
       </div>
       {/* <h2>About</h2> */}
       {/* <h4>SUMMARY</h4> */}
-      <p>Hi there, I am Harshada Chaudhari 
-      <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-      </p>
-      <Type />
+      
 
       {/* <p>💻 I am a Frontend Developer</p> */}
       <p>Let me introduce myself.</p>

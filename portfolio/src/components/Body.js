@@ -5,10 +5,14 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import Work from "./Work";
+import Intro from "./Intro";
 
 function Body() {
   return (
   <div className="body">
+    <section id="intro">
+      <Intro />
+    </section>
     <section id="about">
       <About />
     </section>
