@@ -1,20 +1,20 @@
 .work {
-    padding: 40px;
-    background-color: #24143e;
-  }
+  padding: 40px;
+  background-color: #24143e;
+}
 
-  .work h2 {
-    font-size: 24px;
-  }
+.work h2 {
+  font-size: 24px;
+}
 
-  .project-tags{
-    display: flex;
-    max-width: 60%;
-    flex-wrap: wrap;
+.project-tags {
+  display: flex;
+  max-width: 60%;
+  flex-wrap: wrap;
 }
 
 .tag {
-  padding:  4px 8px;
+  padding: 4px 8px;
   background-color: rgb(110, 110, 212);
   border-radius: 4px;
   margin-right: 6px;
@@ -25,4 +25,11 @@
 
 .tag:hover {
   background-color: rgb(80, 80, 156);
+}
+
+@media (max-width: 768px) {
+  .work {
+    padding: 10px;
+    padding-top: 40px;
+  }
 }

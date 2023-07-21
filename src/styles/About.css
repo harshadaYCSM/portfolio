@@ -147,6 +147,11 @@
 }
 
 @media (max-width: 767px) {
+  .about {
+    padding: 10px;
+    padding-top: 40px;
+  }
+  
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
