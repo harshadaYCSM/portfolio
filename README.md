@@ -4,7 +4,7 @@
 
 <a align="center" href="https://harshadaycsm.github.io/Portfolio/">Live Demo</a>
 <div align="center">
-  <img alt="Demo" src="./Images/readmeImg.png" />
+  <img alt="Demo" src="./src/assets/readmeImg.png" />
 </div>
 
 <br/>
