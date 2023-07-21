@@ -1,13 +1,18 @@
 .about {
-  padding: 40px;
+  padding: 5%;
+  ;
   background-color: #24143e;
 }
 
 .wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  animation-name: wave-animation;
+  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s;
+  /* Change to speed up or slow down */
+  animation-iteration-count: infinite;
+  /* Never stop waving :) */
+  transform-origin: 70% 70%;
+  /* Pivot around the bottom-left palm */
   display: inline-block;
 }
 
@@ -15,93 +20,43 @@
   0% {
     transform: rotate(0deg);
   }
+
   10% {
     transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
+  }
+
+  /* The following five values can be played with to make the waving more or less extreme */
   20% {
     transform: rotate(-8deg);
   }
+
   30% {
     transform: rotate(14deg);
   }
+
   40% {
     transform: rotate(-4deg);
   }
+
   50% {
     transform: rotate(10deg);
   }
+
   60% {
     transform: rotate(0deg);
-  } /* Reset for the last half to pause */
+  }
+
+  /* Reset for the last half to pause */
   100% {
     transform: rotate(0deg);
   }
 }
 
-.about h2 {
-  font-size: 28px;
-  /* color: #333; */
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
 
-.about p {
-  font-size: 18px;
-  /* color: #666; */
-  line-height: 1.5;
-}
-
-.about .work-experience {
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid #ddd;
-}
-
-.about .work-experience h3 {
-  font-size: 20px;
-  /* color: #333; */
-  margin-bottom: 10px;
-}
-
-.company {
-  margin-bottom: 15px;
-  color: #92b6d3 !important;
-  font-weight: bolder;
-}
-
-.about .work-experience .date {
-  font-style: italic;
-  font-size: 14px;
-  /* color: #888; */
-}
-
-.about .skills-list {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.about .skills-list li {
-  margin: 5px;
-  padding: 8px 15px;
-  font-size: 14px;
-  /* color: #fff; */
-  background-color: #333;
-  border-radius: 20px;
-  transition: background-color 0.3s ease;
-}
-
-.about .skills-list li:hover {
-  background-color: #555;
-}
 
 /* Profile Image */
-.profile-image {
-  margin-bottom: 30px;
+/* .profile-image {
+  margin-bottom: 3vh;
 }
 
 .profile-image img {
@@ -111,21 +66,20 @@
   object-fit: cover;
   object-position: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* Social Links */
 .social-links {
-  margin-top: 20px;
+  margin-top: 3vh;
 }
 
 .social-links a {
   display: inline-block;
-  margin: 0 10px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  margin: 0 0.5vw;
+  width: 4vw;
+  height: 5vh;
   text-align: center;
-  font-size: 20px;
+  font-size: 2em;
   color: #fff;
   background-color: #333;
   border-radius: 50%;
@@ -133,7 +87,7 @@
 }
 
 .social-links a:hover {
-  background-color: #555;
+  background-color: #000000;
 }
 
 .Typewriter__wrapper {
@@ -141,6 +95,7 @@
   color: #be6adf !important;
   font-weight: 600 !important;
 }
+
 .Typewriter__cursor {
   font-size: 2.4em !important;
   color: #b562d6 !important;
@@ -148,17 +103,17 @@
 
 @media (max-width: 767px) {
   .about {
-    padding: 10px;
-    padding-top: 40px;
+    padding: 3%;
+    padding-top: 12%;
   }
-  
+
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
     /* position: absolute !important; */
   }
+
   .Typewriter__cursor {
     display: none !important;
   }
 }
-

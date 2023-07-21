@@ -1,17 +1,10 @@
 .skills {
-  padding: 40px;
+  padding: 5%;;
   background-color: #171323;
   opacity: 0;
   animation: fadeIn 0.5s ease-in-out forwards;
   display: flex;
   flex-direction: column;
-}
-
-.skills h2 {
-  font-size: 28px;
-  /* color: #333; */
-  margin-bottom: 30px;
-  text-transform: uppercase;
 }
 
 .skills .skill-icon {
@@ -100,8 +93,8 @@
 @media (max-width: 768px) {
 
   .skills {
-    padding: 10px;
-    padding-top: 40px;
+    padding: 3%;
+    padding-top: 12%;
   }
 
   .skill-set {

@@ -1,20 +1,13 @@
 .contact {
-    padding: 50px;
+    padding: 5%;
     background-color: #171323;
     text-align: center;
     transition: background-color 0.3s ease;
-    /* box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important; */
     color: white !important;
     opacity: 0.9 !important;
     transition: all 0.5s ease 0s !important;
     height: 100% !important;
-    margin-bottom: 15px;
-}
-
-.contact h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-  text-align: center;
+    margin-bottom: 2%;
 }
 
 .contact form {
@@ -77,10 +70,6 @@
 @media (max-width: 768px) {
   .contact {
     padding: 30px;
-  }
-
-  .contact h2 {
-    font-size: 30px;
   }
 
   .contact input,

@@ -1,12 +1,6 @@
 .projects {
-  padding: 40px;
+  padding: 5%;;
   /* background-color: #f9f9f9; */
-}
-
-.projects h2 {
-  font-size: 24px;
-  /* color: #333; */
-  text-align: center;
 }
 
 .projects .project {
@@ -38,12 +32,8 @@
 
 @media (max-width: 768px) {
   .projects {
-    padding: 10px;
-    padding-top: 40px;  
-  }
-
-  .projects h2 {
-    font-size: 20px;
+    padding: 3%;
+    padding-top: 12%;  
   }
 
   .projects .project {

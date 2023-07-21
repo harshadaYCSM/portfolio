@@ -1,12 +1,56 @@
 .work {
-  padding: 40px;
+  padding: 5%;;
   background-color: #24143e;
 }
 
-.work h2 {
-  font-size: 24px;
+
+
+.work-experience {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
 }
 
+.work-experience h3 {
+  font-size: 20px;
+  /* color: #333; */
+  margin-bottom: 10px;
+}
+
+.company {
+  margin-bottom: 15px;
+  color: #92b6d3 !important;
+  font-weight: bolder;
+}
+
+.work-experience .date {
+  font-style: italic;
+  font-size: 14px;
+  /* color: #888; */
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-list li {
+  margin: 5px;
+  padding: 8px 15px;
+  font-size: 14px;
+  /* color: #fff; */
+  background-color: #333;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.skills-list li:hover {
+  background-color: #555;
+}
 .project-tags {
   display: flex;
   max-width: 60%;
@@ -29,7 +73,7 @@
 
 @media (max-width: 768px) {
   .work {
-    padding: 10px;
-    padding-top: 40px;
+    padding: 3%;
+    padding-top: 12%;
   }
 }
