@@ -3,18 +3,18 @@
   /* background-color: #f9f9f9; */
 }
 
-.projects .project {
+.project {
   margin-bottom: 20px;
   animation: fadeInScale 1s ease-in-out;
 }
 
-.projects .project-title {
+.project-title {
   font-size: 18px;
   font-weight: bold;
   /* color: #333; */
 }
 
-.projects .project-description {
+.project-description {
   font-size: 16px;
   /* color: #666; */
 }
@@ -36,15 +36,15 @@
     padding-top: 12%;  
   }
 
-  .projects .project {
+  .project {
     margin-bottom: 10px;
   }
 
-  .projects .project-title {
+  .project-title {
     font-size: 16px;
   }
 
-  .projects .project-description {
+  .project-description {
     font-size: 14px;
   }
 }

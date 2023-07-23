@@ -1,49 +1,47 @@
 .contact {
-    padding: 5%;
-    background-color: #171323;
-    text-align: center;
-    transition: background-color 0.3s ease;
-    color: white !important;
-    opacity: 0.9 !important;
-    transition: all 0.5s ease 0s !important;
-    height: 100% !important;
-    margin-bottom: 2%;
+  padding: 5%;
+  background-color: #171323;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  color: white !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  margin-bottom: 2%;
 }
 
-.contact form {
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 30px;
 }
 
-.contact input,
-.contact textarea {
+input,
+textarea {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  padding: 1%;
+  margin-bottom: 2.5%;
+  border: 0.2vh solid #ccc;
+  border-radius: 1vh;
   transition: border-color 0.3s ease;
 }
 
-.contact input:focus,
-.contact textarea:focus {
+input:focus,
+textarea:focus {
   outline: none;
   border-color: #333;
 }
 
-.contact button {
-  padding: 10px 20px;
+button {
+  padding: 1.2% 2.8%;
   background-color: #8f75b1;
-  /* color: #fff; */
   border: none;
-  border-radius: 5px;
+  border-radius: 1vh;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-.contact button:hover {
+button:hover {
   background-color: #222;
 }
 
@@ -51,7 +49,7 @@
 @keyframes fadeInUp {
   0% {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(2vh);
   }
 
   100% {
@@ -60,24 +58,24 @@
   }
 }
 
-.contact input,
-.contact textarea,
-.contact button {
+input,
+textarea,
+button {
   animation: fadeInUp 0.6s ease forwards;
 }
 
 /* Add responsive styles for smaller screens */
 @media (max-width: 768px) {
   .contact {
-    padding: 30px;
+    padding: 10%;
   }
 
-  .contact input,
-  .contact textarea {
-    margin-bottom: 15px;
+  input,
+  textarea {
+    margin-bottom: 7%;
   }
 
-  .contact button {
-    padding: 8px 16px;
+  button {
+    padding: 4% 6%;
   }
 }

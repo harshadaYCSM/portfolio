@@ -1,5 +1,6 @@
 .skills {
-  padding: 5%;;
+  padding: 5%;
+  ;
   background-color: #171323;
   opacity: 0;
   animation: fadeIn 0.5s ease-in-out forwards;
@@ -7,17 +8,15 @@
   flex-direction: column;
 }
 
-.skills .skill-icon {
-  font-size: 40px;
-  /* color: #888; */
-  margin: 10px;
-  transition: transform 0.3s ease;
+.skill-icon {
+  font-size: 2.5em;
+    margin: 10%;
+    transition: transform 0.3s ease;
 }
 
-.skills .skill-name {
-  font-size: 16px;
-  /* color: #666; */
-  margin-top: 10px;
+.skill-name {
+  font-size: 0.8em;
+  margin-top: 4%;
 }
 
 .skill-set {
@@ -48,7 +47,7 @@
 .skill-section {
   display: flex;
   justify-content: space-between;
-  margin: 12px 0px;
+  margin: 2vh 0vh;
   text-align-last: left;
 }
 
@@ -60,12 +59,10 @@
 }
 
 .skill-title {
-  width: 220px;
-  height: 40px;
-  font-size: 18px;
-  /* color: #3c3c3c; */
+  width: 18vw;
+  max-height: 13vh;
+  font-size: 1.4em;
   font-weight: bold;
-  margin-bottom: 10px;
 }
 
 @keyframes fadeIn {
@@ -103,7 +100,7 @@
     margin: 5px;
   }
 
-  .skills .skill-icon {
+  .skill-icon {
     font-size: 30px;
   }
 
