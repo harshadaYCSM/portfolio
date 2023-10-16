@@ -10,8 +10,8 @@
 
 .skill-icon {
   font-size: 2.5em;
-    margin: 10%;
-    transition: transform 0.3s ease;
+  margin: 10%;
+  transition: transform 0.3s ease;
 }
 
 .skill-name {
@@ -98,6 +98,11 @@
     max-width: 100%;
     justify-content: center;
     margin: 5px;
+  }
+
+  .skill-title {
+    font-size: 1.1em;
+    width: fit-content;
   }
 
   .skill-icon {
