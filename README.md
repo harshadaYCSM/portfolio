@@ -42,6 +42,7 @@ Clone down this repository. You will need `node.js` and `git` installed globally
 
 ## 🛠 Installation and Setup Instructions
 
+# OPTION 1:
 1. Installation: `npm install`
 
 2. In the project directory, you can run: `npm start`
@@ -49,6 +50,15 @@ Clone down this repository. You will need `node.js` and `git` installed globally
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
+
+# OPTION 2:
+1. Download Dockerfile
+
+2. Open Terminal where the DockerFile is
+
+3. Run `docker buildx build -t my-portfolio .`
+
+4. Run `docker run -p 3000:3000 my-portfolio`
 
 ## Usage Instructions
 
