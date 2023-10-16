@@ -2,7 +2,7 @@ import React from "react";
 import About from "../components/About";
 // import Projects from "./Projects";
 import Skills from "../components/Skills";
-import Contact from "./Contact";
+import Contact from "../components/Contact";
 import Work from "../components/Work";
 import Intro from "../components/Intro";
 
