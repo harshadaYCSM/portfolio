@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Work.css'
-import Particle from "./Particle";
 
 const Work = () => {
 
@@ -19,7 +18,7 @@ const Work = () => {
     "India Today": {
       duration: "02/2018 - 02/2020",
       description: "Built responsive web applications for India Today & AajTak, news provider firms.",
-      tags: ["Vanilla Javascript", "React","HTML", "CSS"]
+      tags: ["Vanilla Javascript", "React", "HTML", "CSS"]
     }
   }
   return (
@@ -37,7 +36,7 @@ const Work = () => {
       </p>
       <div className="project-list">
         {projectNames.map((project) => {
-          return < div className = "project" >
+          return < div className="project" >
             <h3 className="project-title">{project} ({projects[project].duration})</h3>
             <div className="project-description">
               <p>{projects[project].description}</p>
@@ -50,7 +49,7 @@ const Work = () => {
           </div>
 
         })}
-    </div>
+      </div>
     </div >
   )
 }

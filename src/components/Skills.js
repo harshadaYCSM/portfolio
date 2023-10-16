@@ -1,21 +1,20 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faJs, faReact, faRedux, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import {
-  faCode, faLaptopCode, faTerminal, faPalette, faCogs, faPaintBrush, faFileCode, faAd,
-  faBug, faCodeBranch, faFileAlt, faUserFriends, faPencilAlt, faComments, faRectangleCode, faToolbox, faTvAlt, faStore, faB, faDashboard
+  faCode, faLaptopCode, faTerminal, faPalette, faCogs, faFileCode, faAd,
+  faToolbox, faTvAlt, faStore, faB, faDashboard
 } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Skills.css'
 import { faConfluence, faGit, faFigma, faNpm, faChrome, faJira, faSass, faJsSquare } from '@fortawesome/free-brands-svg-icons';
-import Particle from "./Particle";
 
 const Skills = () => {
   const skillTypes = ['Front-end Development', 'Development Tools & Environment', 'Collaboration & Project Management', 'Smart TV Development', 'Web Analytics & Others']
   const skillsList = {
     'Front-end Development': ['HTML', 'CSS', 'Javascript', 'ES6', 'ReactJS', 'Redux', 'SASS'],
-    'Development Tools & Environment': ['VS Code','REST APIs', 'NPM', 'Babel', 'Webpack','Git','Chrome'],
+    'Development Tools & Environment': ['VS Code', 'REST APIs', 'NPM', 'Babel', 'Webpack', 'Git', 'Chrome'],
     // 'Web Development Tools': [],
-    'Collaboration & Project Management': ['Jira',  'Confluence', 'Zeplin', 'Figma'],
+    'Collaboration & Project Management': ['Jira', 'Confluence', 'Zeplin', 'Figma'],
     'Smart TV Development': ['LG WebOS', 'TizenOS', 'Sony SmartTV', 'Vidaa'],
     'Web Analytics & Others': ['Mixpanel', 'IMA', 'SSAI', 'DRM']
   }
@@ -29,7 +28,7 @@ const Skills = () => {
 
   return (
     <div className="skills">
-          {/* <Particle /> */}
+      {/* <Particle /> */}
 
       <h2>SKILLS</h2>
       <div className='skills-container'>

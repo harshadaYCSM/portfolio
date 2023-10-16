@@ -1,8 +1,9 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-function Type() {
+function TextTypewriter() {
   return (
+
     <Typewriter
       options={{
         strings: [
@@ -20,4 +21,4 @@ function Type() {
   );
 }
 
-export default Type;
+export default TextTypewriter;

@@ -1,22 +1,22 @@
 import React from "react";
-import "../styles/Home.css";
 import Header from "./Header";
 import Body from "./Body";
 import Footer from "./Footer";
-import Particle from "./Particle";
+// import Particle from "../components/Particle";
 
+import "../styles/Home.css";
 
 function Home() {
-  return ( <div className="home">
+  return (<div className="home">
     {/* <Particle /> */}
     <div>
-        <Header />
+      <Header />
     </div>
     <div>
-        <Body />
+      <Body />
     </div>
     <div>
-        <Footer />
+      <Footer />
     </div>
   </div>
   );

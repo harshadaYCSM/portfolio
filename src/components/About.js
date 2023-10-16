@@ -1,8 +1,8 @@
 import React from 'react';
-import '../styles/About.css';
 // import profileImage from '../images/profile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import '../styles/About.css';
 
 const About = () => {
   const githubUrl = 'https://github.com/harshadaYCSM'; // Replace with your GitHub profile URL
@@ -15,7 +15,7 @@ const About = () => {
       </div>
       <h2>ABOUT</h2>
       {/* <h4>SUMMARY</h4> */}
-      
+
 
       {/* <p>💻 I am a Frontend Developer</p> */}
       <p>Let me introduce myself.</p>
@@ -26,12 +26,12 @@ const About = () => {
       <p>🌱 I’m currently learning NodeJS & TypeScript</p>
       <p>⚡ Fun fact:I also love Playing Guitar,Crafting & Painting.😄 Do checkout my <a href='https://colorfulartspace.wordpress.com'>blog</a>.</p>
       <p>🙋🏻‍♀️ Looking for new opportunities in 📍Munich, Germany due to relocation</p>
-      
+
 
 
       {/* <p>I am a Frontend Developer with more than 5 years of experience, expertise in JavaScript, ReactJS, HTML5, CSS,
         SASS & UI/UX design. Proficient in RESTful APIs, media player libraries, & cross-platform compatibility.</p> */}
-      
+
       <div className="social-links">
         <a href={githubUrl} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} />
