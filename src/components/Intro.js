@@ -5,7 +5,6 @@ import '../styles/Intro.css';
 
 const Intro = () => {
 
-
   return (
     <div className="intro">
       <div className="text-container">

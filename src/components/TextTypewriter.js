@@ -1,18 +1,14 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import { typewriterTextStrings } from '../assets/info';
 
 function TextTypewriter() {
+
   return (
 
     <Typewriter
       options={{
-        strings: [
-          "Software Developer",
-          "Smart TV App Developer",
-          "Frontend Developer",
-          "ReactJS Enthusiast",
-          "A Job Seeker, currently",
-        ],
+        strings: typewriterTextStrings,
         autoStart: true,
         loop: true,
         deleteSpeed: 50,

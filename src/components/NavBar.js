@@ -2,8 +2,8 @@ import React from 'react';
 import '../styles/NavBar.css'
 
 const Navbar = () => {
+  
   return (
-
     <nav className="navbar">
       <div className="navbar-brand">Hsc.</div>
       <ul className='navbar-list'>
