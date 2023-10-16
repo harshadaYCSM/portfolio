@@ -2,7 +2,7 @@
   Portfolio Website<br/>
 </h2>
 
-<a align="center" href="https://harshadaycsm.github.io/Portfolio/">Live Demo</a>
+<a align="center" href="https://harshadaycsm.github.io/portfolio/">Live Demo</a>
 <div align="center">
   <img alt="Demo" src="./src/assets/readmeImg.png" />
 </div>
