@@ -63,6 +63,7 @@ export const typewriterTextStrings = [
     "Smart TV App Developer",
     "Frontend Developer",
     "ReactJS Enthusiast",
+    "Aspiring Fullstack Developer",
     "A Job Seeker, currently",
 ]
 

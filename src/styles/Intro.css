@@ -12,32 +12,53 @@
 }
 
 html {
-    --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
-  );
+    --image-gradient: linear-gradient(to bottom left,
+            rgba(17, 16, 16, 0.678),
+            rgba(12, 10, 22, 0.863));
 }
-
 
 .text-container {
-    padding : 4%;
+    padding: 4%;
 }
+
 .Typewriter {
     min-height: 28vh;
+    width: 31vw;
 }
+
+.Typewriter__wrapper {
+    font-size: 1.5em !important;
+    color: #be6adf !important;
+    font-weight: 600 !important;
+}
+
+.Typewriter__cursor {
+    font-size: 2.4em !important;
+    color: #b562d6 !important;
+}
+
 
 @media (max-width: 768px) {
     .intro {
         display: flex;
-    flex-direction: column-reverse;
-    padding: 0;
-    justify-content: space-around;
-    font-size: 1rem;
-
+        flex-direction: column-reverse;
+        padding: 0;
+        justify-content: space-around;
+        font-size: 1rem;
     }
+
     .coder-image {
         max-height: 30vh !important;
+    }
+
+    .Typewriter__wrapper {
+        font-size: 1.4em !important;
+        font-weight: 500 !important;
+        /* position: absolute !important; */
+    }
+
+    .Typewriter__cursor {
+        display: none !important;
     }
 }
 

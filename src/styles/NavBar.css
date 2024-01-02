@@ -19,6 +19,12 @@
   cursor: pointer;
 }
 
+.navbar-brand a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
 ul {
   list-style-type: none;
   display: flex;

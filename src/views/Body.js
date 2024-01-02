@@ -7,6 +7,8 @@ import Work from "../components/Work";
 import Intro from "../components/Intro";
 
 function Body() {
+
+  // The ids assigned to sections act as guides to anchor tags in NavBar
   return (
     <div className="body">
       <section id="intro">
@@ -22,8 +24,8 @@ function Body() {
         <Work />
       </section>
       {/* <section id="projects">
-      <Projects />
-    </section> */}
+        <Projects />
+      </section> */}
       <section id="contact">
         <Contact />
       </section>
